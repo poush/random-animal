@@ -1,5 +1,5 @@
 {
-  "name": "random-animal",
+  "name": "random-animal-name",
   "version": "0.1.0",
   "description": "Heck simple! A random animal name generator",
   "main": "src/index.js",
