@@ -1,0 +1,40 @@
+{
+  "name": "random-animal",
+  "version": "0.1.0",
+  "description": "Heck simple! A random animal name generator",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/index.spec.js",
+    "start": "node src/index.js",
+    "bundle": "browserify --standalone randomAnimal src/index.js -o dist/random-animal.js",
+    "prebuild": "npm run bundle",
+    "build": "terser --compress -o dist/random-animal.min.js -- dist/random-animal.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poush/random-animal.git"
+  },
+  "keywords": [
+    "random",
+    "animal",
+    "name",
+    "google",
+    "docs"
+  ],
+  "author": "Piyush Agrawal <me@ipiyush.com> (http://ipiyush.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poush/random-animal/issues"
+  },
+  "homepage": "https://github.com/poush/random-animal#readme",
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "terser": "^4.6.11",
+    "uglify-js": "^3.9.0"
+  }
+}

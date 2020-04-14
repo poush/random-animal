@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Example - Random Animal</title>
+</head>
+<body>
+    <h1> Below is the name generated</h1>
+    <h3 id="name"></h3>
+    <script src="../dist/random-animal.min.js"></script>
+    <script>
+        const name = randomAnimal()
+        document.getElementById("name").innerHTML = name;
+    </script>
+</body>
+</html>
