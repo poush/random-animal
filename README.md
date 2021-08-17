@@ -1,11 +1,11 @@
-# random-animal
+# random-animal-name
 
 Heck simple and lightweight: A random animal name generator! No stupid but funny names! 🤷‍♂️
 
 (As seen on Google Docs 🤓)
 
 ```js
-  const randomAnimalName = require('random-animal')
+  const randomAnimalName = require('random-animal-name')
   const animalName = randomAnimalName()
   console.log(animalName)
 ```
