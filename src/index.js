@@ -10,7 +10,7 @@ function generateRandomAnimal() {
 }
 
 if (require.main === module) {
-  console.log(generateAnimal())
+  console.log(generateRandomAnimal())
 }
 
 module.exports = generateRandomAnimal
