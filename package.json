@@ -1,6 +1,6 @@
 {
   "name": "random-animal-name",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Heck simple! A random animal name generator",
   "main": "src/index.js",
   "directories": {
